@@ -94,7 +94,7 @@ button:active{
     width: 350px;
     position: relative;
     top: 10%;
-    bottom: 150px;
+    /* bottom: 150px; */
     left: 70%;
     transform: translateX(-70%);
 }
