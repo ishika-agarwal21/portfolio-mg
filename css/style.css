@@ -67,7 +67,7 @@ nav ul li a{
     margin: 45px 0px 25px;
 }
 .text-container{
-    position: absolute;
+    position: fixed;
     left: 13%;
     top: 42%;
     transform: translate(-13%,-42%);
@@ -92,7 +92,7 @@ button:active{
     height: 300px;
     width: 350px;
     position: absolute;
-    bottom: 120px;
+    bottom: 150px;
     left: 70%;
     transform: translateX(-70%);
 }
