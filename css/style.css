@@ -53,9 +53,9 @@ nav ul li a{
 .text-container p:nth-child(2){
     font-family: Calibri;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: normal;
     color: #1a1a1a;
-    font-size: 60px;
+    font-size: 40px;
 }
 .text-container p:nth-child(3){
     font-family: mtrid pro regular;
