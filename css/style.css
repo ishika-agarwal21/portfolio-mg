@@ -44,12 +44,6 @@ nav ul li a{
     font-weight: bold;
     color: #2d2a2a;
 }
-@media (max-width : 80%){ /* from 0 to 800 px max height applies */
-    .media-box{
-      /* font-size:10px; */
-      font-weight: bold;
-    }
-  }
 .text-container p:nth-child(1){
     font-family: Calibri;
     font-weight: bold;
@@ -69,6 +63,7 @@ nav ul li a{
     font-size: 25px;
 }
 .text-container p{
+    max-width: 100%;
     line-height: 0px;
     margin: 45px 0px 25px;
 }
@@ -97,7 +92,8 @@ button:active{
     border-radius: 50%;
     height: 300px;
     width: 350px;
-    position: absolute;
+    position: relative;
+    top: 10%;
     bottom: 150px;
     left: 70%;
     transform: translateX(-70%);
