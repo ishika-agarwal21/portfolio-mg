@@ -67,7 +67,7 @@ nav ul li a{
     margin: 45px 0px 25px;
 }
 .text-container{
-    position: fixed;
+    position: absolute;
     left: 13%;
     top: 42%;
     transform: translate(-13%,-42%);
