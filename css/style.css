@@ -87,6 +87,9 @@ nav ul li a{
      border: 2px solid #373636;
      color: #373636;
 }
+ button:hover{
+    background-color:black;
+}
 button:active{
     transform:scale(1.1);
 }
@@ -150,6 +153,9 @@ button:active{
     font-size: 20px;
     /* background-color: #262525; */
 
+}
+button:hover{
+    background-color:black;
 }
 .services{
     height: 600px;
@@ -248,6 +254,9 @@ button:active{
     border:none;
     font-size: 14px;
     font-weight: bold;
+}
+button:hover{
+    background-color:black;
 }
 footer{
     height: 300px;
